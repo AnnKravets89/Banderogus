@@ -196,11 +196,16 @@ header {
 }
 
 .modal-form {
-    background: #FFFFFF;
-    padding: 32px 92px 60px 92px;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
+   
+}
+
+.modal-form-container {
+    background: #FFFFFF;
+    padding: 32px 92px 60px 92px;
     position: relative;
 }
 
@@ -276,5 +281,16 @@ header {
 .modal-active {
     opacity: 1;
     pointer-events: all;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
 }
 
